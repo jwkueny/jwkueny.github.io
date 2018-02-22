@@ -8,7 +8,7 @@
 <!-- <h1>What's up, nerd?</h1> -->
 <!-- <p> </p> -->
 <!-- <img src="nintendo.png" alt="jwkueny.com" width="500" height="463"> -->
-<!-- <button type="button">Toggle</button> -->
+<button onclick="myFunction()" type="button">"demo"</button>
 <!-- <form action="/action_page.php" method="get"> -->
   <!-- First name: <input type="text" name="fname"><br> -->
   <!-- Last name: <input type="text" name="lname"><br> -->
@@ -21,14 +21,15 @@
 <!-- <p>Click the button to display a time-based greeting:</p> -->
 
 
-<button onclick="myFunction()" style='"+style+"' /button>
+<!-- <button onclick="myFunction()" style='"+style+"' /button> -->
 
 
 <script>
 var state = false;
 	function myFunction(){
-	  var style = "background-color:green;color:white;width:960px;height:1425px;";
-	  if(state) style = "background-color:red;color:white;width:960px;height:1425px;";
+	  state !=state;
+	  if(state) document.getElementById("demo").innerHTML = "On";
+	  else document.getElementById("demo").innerHTML = "Off";
 	}
 </script>
 
