@@ -19,21 +19,23 @@
 <!-- <form method='POST' action=''><button onclick="myFunction()" style='background-color:green;color:white;width:60px;height:60px;' /button></form> -->
 
 <!-- <p>Click the button to display a time-based greeting:</p> -->
+var state = false;
+var c = green;
 
-<button onclick="myFunction()" style='background-color:green;color:white;width:60px;height:60px;' /button>
+<button onclick="myFunction()" style='background-color:"'+c+'";color:white;width:60px;height:60px;' /button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-    var hour = new Date().getHours(); 
-    var greeting;
-    if (hour < 18) {
-        greeting = "Good day";
-    } else {
-        greeting = "Good evening";
+    if(state){
+        state != state;
+		c = red;
+    } 
+	if(!state){
+        state != state;
+		c = green;
     }
-    document.getElementById("demo").innerHTML = greeting;
 }
 </script>
 
