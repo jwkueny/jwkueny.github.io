@@ -16,7 +16,26 @@
   <button type="reset" value="Reset">Reset</button>
 </form>
 
-<form method='POST' action=''><button style='background-color:green;color:white;width:960px;height:1425px;' type='submit' name='toggle' value='Toggle'></form>
+<form method='POST' action=''><button style='background-color:green;color:white;width:60px;height:60px;' type='submit' name='toggle' value='Toggle'></form>
+
+<p>Click the button to display a time-based greeting:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var hour = new Date().getHours(); 
+    var greeting;
+    if (hour < 18) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+}
+</script>
 
 </body>
 </html>
