@@ -21,24 +21,23 @@
 <!-- <p>Click the button to display a time-based greeting:</p> -->
 
 
+<button onclick="myFunction()" style='background-color:'"+demo+"';color:white;width:60px;height:60px;' /button>
 
 
 <script>
 var state = false;
-var c = "green";
 function myFunction() {
     if(state){
         state != state;
-		c = "red";
+		document.getElementById("demo").innerHTML = "red";
     } 
 	if(!state){
         state != state;
-		c = "green";
+		document.getElementById("demo").innerHTML = "green";
     }
 }
 </script>
 
-<button onclick="myFunction()" style='background-color:'"+c+"';color:white;width:60px;height:60px;' /button>
 
 </body>
 </html>
