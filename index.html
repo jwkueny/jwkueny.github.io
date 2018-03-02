@@ -1,41 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Joseph Kueny</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
 
-<h1>What's up, nerd?For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
+    <title>Signin Template for Bootstrap</title>
 
-On the rare occasion you need to override it, use something like the following:</h1>
-<!-- <p> </p> -->
-<!-- <img src="nintendo.png" alt="jwkueny.com" width="500" height="463"> -->
-<!-- <p id="demo"></p> -->
-<!-- <button onclick="myFunction()" type="button">id</button> -->
-<!-- <form action="/action_page.php" method="get"> -->
-  <!-- First name: <input type="text" name="fname"><br> -->
-  <!-- Last name: <input type="text" name="lname"><br> -->
-  <!-- <button type="submit" value="Submit">Submit</button> -->
-  <!-- <button type="reset" value="Reset">Reset</button> -->
-<!-- </form> -->
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- <form method='POST' action=''><button onclick="myFunction()" style='background-color:green;color:white;width:60px;height:60px;' /button></form> -->
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
 
-<!-- <p>Click the button to display a time-based greeting:</p> -->
-
-
-<!-- <button onclick="myFunction()" style='"+style+"' /button> -->
-
-
-<!-- <script> -->
-	<!-- var state = false; -->
-	<!-- function myFunction(){ -->
-	  <!-- state !=state; -->
-	  <!-- if(state) document.getElementById("demo").innerHTML = "On"; -->
-	  <!-- else document.getElementById("demo").innerHTML = "Off"; -->
-	<!-- } -->
-<!-- </script> -->
-
-
-</body>
+  <body class="text-center">
+    <form class="form-signin">
+      <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputEmail" class="sr-only">Username</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>
+  </body>
 </html>
