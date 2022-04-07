@@ -1,0 +1,361 @@
+:root {
+    --red: #c21111;
+    --light_red: #e6a1a1;
+
+    --green: #18c02e;
+    --light_green: #a8ec9b;
+
+    --blue: #188efc;
+    --light_blue: #73ccf5;
+
+    --yellow: #ffee00;
+    --light_yellow: #f0facc;
+
+    --purple: #5829f3;
+    --light_purple: #9766f1;
+
+    --white: #ffffff;
+    --light_grey: #AAAAAA;
+    --grey: #787878;
+    --dark_grey: #222222;
+    --black: #000000;
+  }
+
+  * {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+  body {
+      background: var(--bg);
+  }
+
+  .light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+
+  .green-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--green);
+    --btnFontColor: var(--black);
+  }
+  
+  .dark-theme {
+    --bg: var(--dark_grey);
+    --fontColor: var(--white);
+    --btnBg: var(--grey);
+    --btnFontColor: var(--white);
+  }
+
+  .btn-0 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-0:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-0:active {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-0:hover {
+     background-color: var(--light_purple);
+ }
+
+  .btn-1 {
+   /* height: 30px;*/
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .btn-1:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+  .btn-1:hover {
+    background-color: var(--light_purple);
+}
+
+.btn-2 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-2:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-2:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-3 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-3:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-3:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-4 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-4:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-4:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-5 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-5:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-5:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-6 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-6:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-6:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-7 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-7:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-7:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-8 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-8:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-8:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-9 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-9:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-9:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn-10 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+ 
+   .btn-10:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+
+   .btn-10:hover {
+     background-color: var(--light_purple);
+ }
+
+ .btn--1 {
+    /* height: 30px;*/
+     width: 100px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor:pointer;
+     color: var(--btnFontColor);
+     background-color: var(--btnBg);
+   }
+
+   .btn--1:focus {
+    background-color: var(--purple);
+    outline-style: none;
+   }
+ 
+   .btn--1:hover {
+     background-color: var(--light_purple);
+ }
+
+  .btn-green {
+    /*height: 30px;*/
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: var(--black);
+    background-color: var(--light_green);
+  }
+
+  .btn-green:focus {
+    background-color: var(--green);
+    outline-style: none;
+   }
+
+  .btn-green:hover {
+      background-color: var(--green);
+  }
+
+  .btn-yellow {
+    /*height: 30px;*/
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: var(--black);
+    background-color: var(--light_yellow);
+  }
+
+  .btn-yellow:focus {
+    background-color: var(--yellow);
+    outline-style: none;
+   }
+
+  .btn-yellow:hover {
+      background-color: var(--yellow);
+  }
+
+  .btn-red {
+    /*height: 30px;*/
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: var(--black);
+    background-color: var(--light_red);
+  }
+
+  .btn-red:focus {
+    background-color: var(--red);
+    outline-style: none;
+   }
+
+  .btn-red:hover {
+      background-color: var(--red);
+  }
+
+  .btn-blue {
+    /*height: 30px;*/
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: var(--black);
+    background-color: var(--light_blue);
+  }
+
+  .btn-blue:focus {
+    background-color: var(--blue);
+    outline-style: none;
+   }
+
+  .btn-blue:hover {
+      background-color: var(--blue);
+  }
