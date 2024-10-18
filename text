@@ -1,0 +1,50 @@
+'use strict'
+
+const switcher = document.querySelector('.btn');
+
+switcher.addEventListener('click', function() {
+    var className = document.body.className;
+    if(className == "dark-theme") {
+        this.textContent = "Class";
+    }
+    else {
+        this.textContent = "Class";
+    }
+
+});
+
+
+<div>
+        <span><button class="btn-0">Class</button></span>
+        <span><button class="btn-5">Homework</button></span>
+        <span><button class="btn-green">Green</button></span>
+      </div>
+      <br>
+      <div>
+        <span><button class="btn-1">Work</button></span>
+        <span><button class="btn-6">Meeting</button></span>
+        <span><button class="btn-yellow">Yellow</button></span>
+      </div>
+      <br>
+      <div>
+        <span><button class="btn-2">Eating</button></span>
+        <span><button class="btn-7">Leisure</button></span>
+        <span><button class="btn-red">Red</button></span>
+      </div>
+      <br>
+      <div>
+        <span><button class="btn-3">Cornerstone</button></span>
+        <span><button class="btn-8">Sleeping</button></span>
+        <span><button class="btn-blue">Blue</button></span>
+      </div>
+      <br>
+      <div>
+        <span><button class="btn-4">!Ames</button></span>
+        <span><button class="btn-9">Somewhere</button></span>
+      </div>
+      <br>
+      <div>
+        <span><button class="btn-10">Off</button></span>
+        <span><button class="btn--1">Error</button></span>
+      </div>
+      <br>
