@@ -14,24 +14,33 @@
     background: #aaa;
 	}
   body {
-	background-color: #e2fff1;
+    background-color: #e2fff1;
+    height: 100%; 
+    width: 100%; 
 	}
-  .box {
-        width: 100%;
-        height: 350px;
-        border: 1px solid rgb(0, 0, 0);
-      }
-      img {
-        width: 100%;
-        height: 100%;
-      }
+  img {
+    width: 325px;
+    height: 325px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .main {
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: left;
+    padding: 20px;
+  }
+  .content-container {
+  display: block;
+  }
   </style>
 </head>
 <body>
 
 <!-- NAVIGATION BAR -->
 
-<a href="http://jwkueny.com" style="color: #313131; text-decoration: none;">
+<a href="https://jwkueny.com" style="color: #313131; text-decoration: none;">
 	<div class="jumbotron text-center" style="margin-bottom:0">
 	  <h1>Joseph Kueny</h1>
 	</div>
@@ -45,11 +54,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="http://jwkueny.com">Joseph Kueny</a>
+      <a class="navbar-brand" href="https://jwkueny.com">Joseph Kueny</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-    <li class="active"><a href="http://jwkueny.com">Home</a></li>
+    <li class="active"><a href="https://jwkueny.com">Home</a></li>
     <li><a href="projects">Projects</a></li>
     <li><a href="courses">Course Papers</a></li>
     <li><a href="resume">Resume</a></li>
@@ -62,27 +71,25 @@
 <!-- MAIN -->
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <body>
-        <div class="box"> 
-          <img src="Images/Joseph_on_Mauna_Kea.JPG"  alt="Joseph on Mauna Kea"/> 
-        </div>
-      </body>
-    </div>
-    <div>
-    <div class="col-sm-8">
-      <p style="font-size:175%;vertical-align: -100px;"><br><br>I am a two-time graduate of Iowa State University. I received my undergraduate education in Computer Engineering from ISU in the fall of 2020, and one year later I completed my Master of Business Administration with a specialization in Business/Data Analytics. <br> <br>Currently, I am seeking full-time, remote employment in the data engineering field, but I am also open to firmware/software development positions. If you think I'd be a good fit for your company, please feel free to reach out on <a href="https://linkedin.com/in/jwkueny" target="blank">LinkedIn</a>.</p>
-    </div>
+  <div>
+    <h2>About Me</h2>
   </div>
-</div>
+  <div class="content-container">
+      <div>
+        <img src="Images/Joseph_on_Mauna_Kea.JPG" alt="Joseph on Mauna Kea"/> 
+      </div>
+      <div class="main">
+        <p style="font-size:175%;">I am a two-time graduate of Iowa State University. My undergraduate in Computer Engineering was completed in the fall of 2020, and one year later my Master of Business Administration with a specialization in Business/Data Analytics was received. <br> <br>Currently, I am seeking full-time, remote employment in a postition that would allow me the opprotunity to do on-prem automation. That could be in software development, data engineering, or firmware development, but I am also open to any type of development position. Please take a look at my <a href="resume">resume</a>, and if you think I'd be a good fit for your company, please feel free to reach out on <a href="https://linkedin.com/in/jwkueny" target="blank">LinkedIn</a> or at <a href="mailto:joseph@jwkueny.com" target="_parent">joseph@jwkueny.com</a>.</p>
+      </div>
+    
+  </div>
 
-<!-- FOOTER -->
-<br>
-<div class="jumbotron text-center" style="margin-bottom:0">
-	<p>This site is a constant work in progress, sorry for any mess.</p>
-	<p><a href="mailto:joseph@jwkueny.com?Subject=From%20Website" target="_parent">Mail</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/jwkueny" target="_parent">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/jwkueny" target="_parent">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/jwkueny" target="_parent">Instagram</a><br />Joseph Kueny 2022</p></div>
+  <!-- FOOTER -->
+  <br>
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>This site is rarely updated, sorry for any mess.</p>
+    <p><a href="mailto:joseph@jwkueny.com?Subject=From%20Website" target="_parent">Mail</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/jwkueny" target="_parent">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/jwkueny" target="_parent">Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/jwkueny" target="_parent">Instagram</a><br />Joseph Kueny 2024</p>
+  </div>
 </div>
 
 
